@@ -1,0 +1,28 @@
+.pagination {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.pagination li {
+	float: left;
+	list-style: none;
+	font-size: 1em;
+	height: 1.5em;
+	margin: 0px 0.5em;
+	cursor: pointer;
+	color: #7fa6c1;
+	line-height: 1.5em;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.pagination .current-page {
+	color: black;
+	cursor: default;
+
+	&:hover {
+		text-decoration: none;
+	}
+}

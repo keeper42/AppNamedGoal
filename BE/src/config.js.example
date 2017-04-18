@@ -1,0 +1,8 @@
+module.exports = {
+	COOKIE_SECRET: 'goal',
+	DB: 'goal',
+	HOST: 'pencilsky.cn',
+	PORT: 27017,
+	USERNAME: 'goal',
+	PASSWORD: 'faxianbei'
+};

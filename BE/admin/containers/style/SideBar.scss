@@ -1,0 +1,34 @@
+nav {
+	transition: all .5s;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 250px;
+	height: 100%;
+	background-color: #2f4050;
+}
+
+.min-nav {
+	width: 50px;
+
+	#nav-list {
+		.list a {
+			padding: 0;
+			margin: 0;
+
+			span {
+				font-size: 0px;
+				margin-left: 0px;
+			}
+		}
+
+		p a {
+			font-size: 0px;
+			line-height: 10px;
+		}
+
+		#logout {
+			font-size: 0px;
+		}
+	}
+}

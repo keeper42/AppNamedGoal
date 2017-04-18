@@ -1,0 +1,37 @@
+.list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+	a {
+		&:hover {
+			text-decoration: none;
+			background-color: #222E39;
+			color: #7FA6C1;
+		}
+		
+		transition: all .5s;
+		display: block;
+		height: 50px;
+		line-height: 50px;
+		font-size: 1.3em;
+
+		span {
+			transition: font-size .5s, margin-left .5s;
+			margin-left: 20px;
+		}
+
+		i {
+			width: 50px;
+			height: 50px;
+			text-align: center;
+			line-height: 50px;
+		}
+	}
+}
+
+.menu-focus {
+	text-decoration: none;
+	background-color: #222E39;
+	color: #7FA6C1;
+}
